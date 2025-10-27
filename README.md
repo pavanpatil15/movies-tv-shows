@@ -1,3 +1,7 @@
+### Frontend Deployment (Vercel)
+
+Deployed here: [https://movies-tv-shows-woad.vercel.app/]
+
 # 🎬 Favorite Movies & TV Shows Manager
 
 A full-stack web application for managing your favorite movies and TV shows with infinite scrolling, built with React, TypeScript, Node.js, Express, and MySQL.
