@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Entry {
+  id        Int      @id @default(autoincrement())
+  title     String   @db.VarChar(255)
+  type      EntryType
+  director  String   @db.VarChar(255)
+  budget    String?  @db.VarChar(100)
+  location  String?  @db.VarChar(255)
+  duration  String?  @db.VarChar(100)
+  yearTime  String?  @db.VarChar(100) @map("year_time")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("entries")
+}
+
+enum EntryType {
+  Movie
+  TV_Show @map("TV Show")
+}
