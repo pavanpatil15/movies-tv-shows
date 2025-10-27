@@ -1,4 +1,3 @@
-// // src/components/EntriesTable.tsx
 // import React from 'react';
 // import { Edit2, Trash2 } from 'lucide-react';
 // import { Entry } from '../types';
@@ -129,7 +128,6 @@
 
 
 
-// src/components/EntriesTable.tsx
 import React from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import { Edit2, Trash2 } from 'lucide-react';

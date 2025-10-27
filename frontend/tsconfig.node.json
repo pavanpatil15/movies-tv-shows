@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    // "composite": true,  // Remove this line
-    // "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",  // Remove this too
     "target": "ES2023",
     "lib": ["ES2023"],
     "module": "ESNext",

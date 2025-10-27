@@ -1,4 +1,3 @@
-// src/types/index.ts
 export interface Entry {
   id: number;
   title: string;

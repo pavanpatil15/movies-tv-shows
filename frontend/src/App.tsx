@@ -1,4 +1,3 @@
-// src/App.tsx
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Plus, Loader2 } from 'lucide-react';
 import { entryApi, CreateEntryData } from './services/api';

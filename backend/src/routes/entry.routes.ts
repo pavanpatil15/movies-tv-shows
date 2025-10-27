@@ -1,4 +1,3 @@
-// src/routes/entry.routes.ts
 import { Router } from 'express';
 import {
   getAllEntries,
